@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Paket Hemat 3</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">LANJUT</string>
+    <string name="skip">LEWATI</string>
+    <string name="start">MULAI</string>
+
+    <string name="slide_1_title">Sharing Deal</string>
+    <string name="slide_1_desc">Free Chicken Pops setiap Selasa dengan makan bersama 4 orang temanmu</string>
+
+    <string name="slide_2_title">Promo for Payment with Credit Card</string>
+    <string name="slide_2_desc">Free Matcha Milk Tea with Asuka Bean untuk Pembayaran Dengan BNI, Mandiri, dan BCA Credit Card </string>
+
+    <string name="slide_3_title">Play Your Favourite Music Video</string>
+    <string name="slide_3_desc">Now update</string>
+
+</resources>

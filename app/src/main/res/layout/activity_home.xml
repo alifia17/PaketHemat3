@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:columnCount="2"
+    app:rowCount="2"
+    app:orientation="horizontal"
+    >
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="185dp"
+        android:background="@color/homeMenuBlue"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/homeMenuYellowbbingits">
+
+            <Button
+                android:id="@+id/button_pmh3"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/homeMenuYellowbbingits"
+                android:text="Welcome to PMH3"
+                android:textColor="@color/homeMenuBlue" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="58dp"
+                android:layout_marginEnd="66dp"
+                android:layout_marginRight="66dp"
+                app:srcCompat="@drawable/pmh3" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="115dp"
+        android:layout_height="109dp"
+        android:layout_marginLeft="2dp"
+        android:background="@color/homeMenuBlue"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/promo"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="53dp"
+                android:layout_marginEnd="41dp"
+                android:layout_marginRight="41dp"
+                android:src="@drawable/menu_promo" />
+
+            <Button
+                android:id="@+id/button_promo"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="145dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:background="@color/homeMenuBlue"
+                android:text="See Our Promo"
+                android:textColor="@color/homeMenuYellowbbingits" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_above="@+id/btn_"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginBottom="17dp"
+                android:background="?android:attr/listDivider" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="160dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/homeMenuYellowbbingits"
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/homeMenuBlue">
+
+            <ImageView
+                android:id="@+id/notif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/home_menuyell" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notif"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="29dp"
+                android:background="@color/homeMenuBlue"
+                android:text="Menu"
+                android:textColor="@color/homeMenuYellowbbingits" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/homeMenuYellowbbingits"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="166dp">
+
+            <ImageView
+                android:id="@+id/mail"
+                android:layout_width="92dp"
+                android:layout_height="83dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/home_orderbir" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginBottom="5dp"
+                android:background="@color/homeMenuYellowbbingits"
+                android:text="My Order"
+                android:textColor="@color/homeMenuBlue" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/homeMenuBlue"
+        android:layout_marginTop="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/homeMenuYellowbbingits">
+
+            <ImageView
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:src="@drawable/home_playbir" />
+
+            <Button
+                android:id="@+id/btn_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rate"
+                android:layout_alignStart="@+id/rate"
+                android:layout_marginStart="-7dp"
+                android:layout_marginTop="21dp"
+                android:background="@color/homeMenuYellowbbingits"
+                android:text="Song Request"
+                android:textColor="@color/homeMenuBlue" />
+
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        app:layout_columnWeight="1"
+        app:layout_rowWeight="1"
+        android:background="@color/homeMenuBlue"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="btnCall">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/rev"
+                android:src="@drawable/home_bellyell"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rev"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/homeMenuYellowbbingits"
+                android:text="Call Waiter"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+
+</android.support.v7.widget.GridLayout>

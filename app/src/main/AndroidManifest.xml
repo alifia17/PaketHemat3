@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.alif.pakethemat3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Introduction" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".splashmusic" />
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".musikbts" />
+        <activity android:name=".musikblackpink" />
+        <activity android:name=".Musikbts" />
+        <activity android:name=".Musikiu" />
+        <activity android:name=".Musikrv" />
+        <activity android:name=".Musiktulus" />
+        <activity android:name=".Musikraisa" />
+        <activity android:name=".Musikhivi" />
+        <activity android:name=".Musikran" />
+        <activity android:name=".Musikariana" />
+        <activity android:name=".Musikjustin" />
+        <activity android:name=".Musikdua" />
+        <activity android:name=".Musikshawn" />
+    </application>
+
+</manifest>
